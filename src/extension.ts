@@ -11,11 +11,11 @@ export function activate(context: vscode.ExtensionContext) {
     console.log('DevContainer Template Manager is now active!');
 
     // Register the command to deploy a DevContainer template
-    let deployDisposable = vscode.commands.registerCommand('extension.deployDevcontainer', deployDevcontainer(context));
+    let deployDisposable = vscode.commands.registerCommand('devcontainer-template-manager.deployDevcontainer', deployDevcontainer(context));
     context.subscriptions.push(deployDisposable);
 
     // Register the command to save the current DevContainer as a template
-    let saveDisposable = vscode.commands.registerCommand('extension.saveDevcontainerTemplate', saveDevcontainerTemplate(context));
+    let saveDisposable = vscode.commands.registerCommand('devcontainer-template-manager.saveDevcontainerTemplate', saveDevcontainerTemplate(context));
     context.subscriptions.push(saveDisposable);
 }
 

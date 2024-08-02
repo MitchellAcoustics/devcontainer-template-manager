@@ -2,8 +2,9 @@
   "name": "devcontainer-template-manager",
   "displayName": "DevContainer Template Manager",
   "description": "Easily manage, reuse, and save DevContainer templates for consistent development environments across projects.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "publisher": "AndrewMitchell",
+  "icon": "icons/DEV-TM-icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/MitchellAcoustics/devcontainer-template-manager"
@@ -19,11 +20,11 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.deployDevcontainer",
+        "command": "devcontainer-template-manager.deployDevcontainer",
         "title": "Import DevContainer Template"
       },
       {
-        "command": "extension.saveDevcontainerTemplate",
+        "command": "devcontainer-template-manager.saveDevcontainerTemplate",
         "title": "Save Current DevContainer as Template"
       }
     ]
