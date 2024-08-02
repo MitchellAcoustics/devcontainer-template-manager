@@ -2,6 +2,10 @@
 
 DevContainer Template Manager is a Visual Studio Code extension that simplifies the process of managing, deploying, and saving DevContainer configurations. It allows you to quickly set up development environments across different projects and save custom configurations for future use.
 
+Once you've done all that work to get a setup that works for you, you should be able to save it locally and reuse it in other projects. This extension allows you to do just that.
+
+**Inspiration:** I created this extension because I spent days getting a Research Data Science devcontainer with Quarto, R (with renv environment management), Python (with Rye), and Latex working. Then I found myself copying and pasting DevContainer configurations between projects. I wanted a way to easily save and deploy custom DevContainer configurations without having to manually copy files around.
+
 ## Features
 
 - **Import DevContainer Templates**: Easily import pre-configured DevContainer templates to your current workspace.
