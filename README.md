@@ -1,71 +1,66 @@
-# devcontainer-template-manager README
+# DevContainer Template Manager
 
-This is the README for your extension "devcontainer-template-manager". After writing up a brief description, we recommend including the following sections.
+DevContainer Template Manager is a Visual Studio Code extension that simplifies the process of managing, deploying, and saving DevContainer configurations. It allows you to quickly set up development environments across different projects and save custom configurations for future use.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Import DevContainer Templates**: Easily import pre-configured DevContainer templates to your current workspace.
+- **Save Custom Templates**: Save your current DevContainer configuration as a custom template for future use.
+- **Manage Multiple Templates**: Keep a library of DevContainer templates for different project types or environments.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Open Visual Studio Code
+2. Go to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X)
+3. Search for "DevContainer Template Manager"
+4. Click Install
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
+
+### Deploying a DevContainer Template
+
+1. Open a workspace where you want to deploy a DevContainer configuration
+2. Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P)
+3. Search for "Import DevContainer Template" and select it
+4. Choose a template from the list of available templates
+5. The selected template will be copied to your workspace's `.devcontainer` folder
+
+### Saving a Custom DevContainer Template
+
+1. Set up your DevContainer configuration in your current workspace
+2. Once you're satisfied with the setup, open the Command Palette
+3. Search for "Save Current DevContainer as Template" and select it
+4. Enter a name for your new template when prompted
+5. Your current DevContainer configuration will be saved as a new template
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Visual Studio Code 1.60.0 or higher
+- A workspace must be open to deploy or save templates
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension doesn't add any VS Code settings.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+[List any known issues or limitations here]
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.2.0
 
-### 1.0.0
+- Added functionality to save current DevContainer configuration as a custom template
 
-Initial release of ...
+### 0.1.0
 
-### 1.0.1
+- Initial release
+- Ability to deploy pre-configured DevContainer templates
 
-Fixed issue #.
+## Contributing
 
-### 1.1.0
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Added features X, Y, and Z.
+## License
 
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+[MIT](LICENSE)
