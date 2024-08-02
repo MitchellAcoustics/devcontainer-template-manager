@@ -2,8 +2,8 @@
   "name": "devcontainer-template-manager",
   "displayName": "DevContainer Template Manager",
   "description": "Easily manage, reuse, and save DevContainer templates for consistent development environments across projects.",
-  "version": "0.2.0",
-  "publisher": "Andrew Mitchell",
+  "version": "0.2.1",
+  "publisher": "AndrewMitchell",
   "repository": {
     "type": "git",
     "url": "https://github.com/MitchellAcoustics/devcontainer-template-manager"
